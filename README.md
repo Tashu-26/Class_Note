@@ -3,46 +3,34 @@ NoteOrg is a smart note management system designed for students.
 It helps users organize notes, subjects, and study materials in one place.
 
 With support for tags, file attachments (images/PDFs), favorites, and search, NoteOrg makes studying more efficient and structured.
-
-Key Features 
-
-User Management
-User can register and log in
-
-Password is kept secure
-
-User can manage profile
-
-
-Subject Management
- 
-Create, edit, and delete subjects
-Keep notes under each subject
-Notes Management
-Add, edit, delete, and view notes
-Upload files (PDF, images)
-Show notes in card style
-Advanced Features
-Mark notes as favorite or pin
-Search notes easily (live search)
-Use tags to organize better
-Highlight important notes
- User Interface Features
-Works on mobile and desktop
-Dark mode, pastel purple, and light mode
-Clean and modern design
-User Experience
-Show success and error messages
-Ask before deleting anything 
-
-
-
-Security Features
-Password is saved in a secure way (hashed)
-System keeps user login safe (session management)
-Users must log in to see important pages
-
-
+📌 Key Features
+🔹 User Management
+Users can register and log in to the system securely.
+Passwords are stored in a hashed format to protect user data.
+Each user can manage their own profile and access only their data.
+🔹 Subject Management
+Users can create, edit, and delete subjects.
+Notes can be organized under specific subjects for better structure.
+🔹 Notes Management
+Users can add, edit, delete, and view notes easily.
+File upload feature allows attaching PDFs, images, and documents.
+Notes are displayed in a clean card-style layout for better readability.
+🔹 Advanced Features
+Notes can be marked as favorite or pinned for quick access ⭐
+Live search helps users find notes instantly 🔍
+Tag system allows better organization of notes
+Important notes can be highlighted for visibility
+🔹 User Interface Features
+Fully responsive design (works on mobile and desktop) 📱💻
+Supports Dark Mode, Light Mode, and pastel purple theme 🎨
+Clean and modern UI for better usability
+🔹 User Experience
+Displays success and error messages clearly
+Confirmation is required before deleting notes to prevent mistakes
+🔹 Security Features
+Passwords are stored securely using hashing 🔐
+Session management keeps users logged in safely
+Unauthorized users cannot access protected pages
 
  3. Step-by-Step Setup Instructions
 
