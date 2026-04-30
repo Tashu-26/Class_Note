@@ -8,9 +8,14 @@ Key Features
 
 User Management
 User can register and log in
+
 Password is kept secure
+
 User can manage profile
- Subject Management
+
+
+Subject Management
+ 
 Create, edit, and delete subjects
 Keep notes under each subject
 Notes Management
