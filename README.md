@@ -68,6 +68,50 @@ Session management keeps users logged in safely
 Unauthorized users cannot access protected pages
 
 
+🛠️ Tech Stack
+
+🔹 Backend
+
+PHP 8.x (Procedural):
+
+Used to handle server-side logic such as authentication, note management, and data processing.
+
+PDO (PHP Data Objects):
+
+Used for secure database operations with prepared statements, helping prevent SQL injection.
+
+
+🔹 Frontend
+
+HTML5:
+
+Provides the structure of the web pages.
+
+CSS3 (Vanilla CSS with Custom Variables):
+
+Used for styling the application with a clean and modern design. Custom variables help maintain consistent colors and themes.
+
+JavaScript (ES6+):
+
+Adds interactivity such as:
+
+Dark mode toggle
+
+Live search
+
+Favorite toggle (without page reload)
+
+Drag-and-drop file upload
+
+
+🔹 Database
+
+MySQL 8.0+:
+
+Used to store all application data including users, notes, subjects, tags, and attachments.
+
+
+
 
 
 
