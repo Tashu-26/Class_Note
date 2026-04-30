@@ -4,21 +4,75 @@ It helps users organize notes, subjects, and study materials in one place.
 
 With support for tags, file attachments (images/PDFs), favorites, and search, NoteOrg makes studying more efficient and structured.
 
-Key Features
-1.User Authentication (Sign up / Login)
-2.Subject-based organization with icons & colors
-3.Rich note-taking with tags
-4.File attachments (Images & PDFs)
-5.Favorite notes for quick access
-6.Search and filter system
-7.Dark mode support
+Key Features 
+
+User Management
+User can register and log in
+Password is kept secure
+User can manage profile
+ Subject Management
+Create, edit, and delete subjects
+Keep notes under each subject
+Notes Management
+Add, edit, delete, and view notes
+Upload files (PDF, images)
+Show notes in card style
+Advanced Features
+Mark notes as favorite or pin
+Search notes easily (live search)
+Use tags to organize better
+Highlight important notes
+ User Interface Features
+Works on mobile and desktop
+Dark mode, pastel purple, and light mode
+Clean and modern design
+User Experience
+Show success and error messages
+Ask before deleting anything 
 
 
 
+Security Features
+Password is saved in a secure way (hashed)
+System keeps user login safe (session management)
+Users must log in to see important pages
 
- Setup Steps:
-       1. Clone/Copy: Move the classnote folder to C:\xampp\htdocs\.
-       2. Create DB: Create a database named noteorg in phpMyAdmin.
-       3. Import SQL: Import the database.sql file.
-       4. Configure DB: Update includes/config.php with your MySQL credentials.
-       5. Run Locally: Navigate to http://localhost/classnote/ in your browser.
+
+
+ 3. Step-by-Step Setup Instructions
+
+  
+  Step 1: Place the Project
+Open your XAMPP folder (usually C:\xampp).
+Go to the htdocs folder.
+Create a folder named classnote and paste all project files inside it.
+ - Path should be: C:\xampp\htdocs\classnote\index.php
+
+  Step 2: Database Setup
+Start Apache and MySQL in the XAMPP Control Panel.
+pen your browser and go to http://localhost/phpmyadmin.
+Create a new database named noteorg.
+Click on the noteorg database, go to the Import tab.
+Select the database.sql file from your project folder and click Go.
+
+
+
+Step 3: Configuration Check
+ Open includes/config.php in a text editor.
+ Ensure the database credentials match your XAMPP settings (default is root
+      with no password):
+
+define('DB_NAME', 'noteorg');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+
+  Step 4: Permissions
+Ensure the uploads folder in your project is writable so you can save
+             images.
+
+  Step 5: Run the App
+Open your browser and go to:
+http://localhost/classnote/
+You can now Sign Up and start creating notes!
+
+
