@@ -10,7 +10,6 @@ $recent  = getNotes($user['id'], ['limit' => 6]);   // latest 6
 $subjects = getSubjects($user['id']);
 
 $colors = ['purple'=>'var(--p600)','teal'=>'var(--t400)','amber'=>'var(--a400)','coral'=>'var(--c400)'];
-$initials = implode('', array_map(fn($w) => strtoupper($w[0]), array_slice(explode(' ', $user['name']), 0, 2)));
 
 htmlHead('Dashboard');
 ?>
@@ -20,7 +19,7 @@ htmlHead('Dashboard');
     <?php flashSession(); ?>
     <div class="page-header">
       <div>
-        <div class="page-title">Good day, <?= htmlspecialchars(explode(' ', $user['name'])[0]) ?> 👋</div>
+        <div class="page-title">Good day, <?= htmlspecialchars(explode(' ', trim($user['name']))[0]) ?> 👋</div>
         <div class="page-sub">Here's what's happening with your notes</div>
       </div>
       <div style="display:flex;gap:10px;align-items:center">
@@ -57,7 +56,7 @@ htmlHead('Dashboard');
 
     <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
       <h2 style="font-size:16px;font-weight:600;color:var(--txt)">Recent notes</h2>
-      <a href="/notes.php" class="btn btn-sm">View all →</a>
+      <a href="notes.php" class="btn btn-sm">View all →</a>
     </div>
 
     <?php if (empty($recent)): ?>
